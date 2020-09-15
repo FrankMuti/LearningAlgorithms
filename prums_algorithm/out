@@ -1,0 +1,37 @@
+ *  3  *  2  *  *  *  *  4 
+ 3  *  *  *  *  *  *  4  * 
+ *  *  *  6  *  1  *  2  * 
+ 2  *  6  *  1  *  *  *  * 
+ *  *  *  1  *  *  *  *  8 
+ *  *  1  *  *  *  8  *  * 
+ *  *  *  *  *  8  *  *  * 
+ *  4  2  *  *  *  *  *  * 
+ 4  *  *  *  8  *  *  *  * 
+Reachset : 0 
+Min cost edge: (0, 3) cost = 2
+Reachset : 0 3 
+Min cost edge: (3, 4) cost = 1
+Reachset : 0 3 4 
+Min cost edge: (0, 1) cost = 3
+Reachset : 0 1 3 4 
+Min cost edge: (0, 8) cost = 4
+Reachset : 0 1 3 4 8 
+Min cost edge: (1, 7) cost = 4
+Reachset : 0 1 3 4 7 8 
+Min cost edge: (7, 2) cost = 2
+Reachset : 0 1 2 3 4 7 8 
+Min cost edge: (2, 5) cost = 1
+Reachset : 0 1 2 3 4 5 7 8 
+Min cost edge: (5, 6) cost = 8
+Reachset : 0 1 2 3 4 5 6 7 8 
+Min cost edge: (0, 0) cost = 2147483647
+Reachset : 0 1 2 3 4 5 6 7 8 
+0 --> 0
+0 --> 1
+7 --> 2
+0 --> 3
+3 --> 4
+2 --> 5
+5 --> 6
+1 --> 7
+0 --> 8
