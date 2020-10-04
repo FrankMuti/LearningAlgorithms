@@ -1,0 +1,3 @@
+#!/bin/bash
+fd=$1
+g++ $fd/a.cc -std=c++17 -o $fd/sol && ./$fd/sol <$fd/in> $fd/out && cat $fd/out
