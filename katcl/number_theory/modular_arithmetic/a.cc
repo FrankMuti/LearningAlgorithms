@@ -37,8 +37,8 @@ void inverse() {
 // ModPow
 long long modpow(long long b, long long e) {
   long long res = 1;
-  for (; e; b *= (b % mod), e /= 2) {
-    if (e & 1) res *= (res % mod); 
+  for (; e; b = b * b % mod, e /= 2) {
+    if (e & 1) res = res * b % mod; 
   }
   return res;
 }
